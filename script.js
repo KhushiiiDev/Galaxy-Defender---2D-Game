@@ -595,7 +595,6 @@ pauseBtn.addEventListener('click', ()=>{ running = !running; pauseBtn.textConten
 restartBtn.addEventListener('click', ()=>{ resetGame(); running = true; lastTime = 0; hideOverlay(); });
 
 overlayRestart.addEventListener('click', ()=>{ resetGame(); running = true; hideOverlay(); lastTime = 0; });
-overlayClose.addEventListener('click', ()=>{ hideOverlay(); });
 
 
 // initial reset
@@ -655,4 +654,5 @@ if (typeof window !== "undefined") {
   window.levelUpWave = typeof levelUpWave === "function" ? levelUpWave : () => {};
   window.updateHUD = typeof updateHUD === "function" ? updateHUD : () => {};
 }
+
 
