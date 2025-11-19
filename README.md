@@ -63,7 +63,7 @@ Victory
 ## ▶️ How to Run
 
 1️⃣ Clone or download the repository  
-`git clone <your-repository-link>`  
+`git clone https://github.com/KhushiiiDev/Galaxy-Defender---2D-Game.git`  
 2️⃣ Open **index.html** in any modern web browser  
 3️⃣ Start playing — no installation required  
 
